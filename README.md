@@ -32,8 +32,11 @@ Once you have started the app, navigate to http://localhost:3000 in your web bro
 
 Technologies Used
 React: A JavaScript library for building user interfaces
+
 Google Maps API: Used for map and route rendering
+
 Node.js: The JavaScript runtime used
+
 OpenCage Geocoder API: Used to convert text into latitude and longitude.
 
 # Example Usage
