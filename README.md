@@ -28,12 +28,13 @@ npm start
 ```
 
 Usage
-Once you have started the app, navigate to http://localhost:3000 in your web browser. Enter your starting point and destination, then click 'Find Safe Route' to get the safest route based on crime data.
+Once you have started the app, navigate to http://localhost:3000 in your web browser. You will be greeted with a homepage and a navbar to redirect to the directions page. On the homepage, the user will be able to see the all crimes in their area. The direction map page will allow the user to input an origin and destination.
 
 Technologies Used
 React: A JavaScript library for building user interfaces
 Google Maps API: Used for map and route rendering
 Node.js: The JavaScript runtime used
+OpenCage Geocoder API: Used to convert text into latitude and longitude.
 
 # Example Usage
 This is the homepage where the user can see all recent crimes in their area and can click each marker for more details.
@@ -50,6 +51,6 @@ This is the example output
 Shown above are three routes categorized using red, yellow, and green. Red indicates the least safe route, but can be more time efficient. Yellow is typically a middle ground. Green is the safest route, and will go out of its way to find blocks with the least amount of crimes. All of these routes will stay within reason so the user doesn't travel outside of boundaries.
 
 The app applies Dijkstra’s algorithm using weights calculated from the tier system, to generate
-a potential route that the user could take. The tier system is shown below
+a potential route that the user could take. The tier system is shown below.
 
 ![image](https://github.com/dragonsoulpl/crime-map/assets/91435678/8e38f92d-6175-4977-84ba-26b871781a4e)
