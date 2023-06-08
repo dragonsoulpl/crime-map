@@ -37,6 +37,7 @@ Node.js: The JavaScript runtime used
 
 # Example Usage
 This is where you input the origin and destination addresses
+
 ![image](https://github.com/dragonsoulpl/crime-map/assets/91435678/8c7cddb1-e9a7-4881-b71f-bd55d9bf4229)
 
 This is the example output
