@@ -41,6 +41,7 @@ This is where you input the origin and destination addresses
 ![image](https://github.com/dragonsoulpl/crime-map/assets/91435678/8c7cddb1-e9a7-4881-b71f-bd55d9bf4229)
 
 This is the example output
-![image](https://github.com/dragonsoulpl/crime-map/assets/91435678/7ec2b230-8ba1-4382-8f1d-62c0da12c747)
+![image](https://github.com/dragonsoulpl/crime-map/assets/91435678/d435bd06-79b8-47f5-b1dd-4d1499b83ef3)
 
-The recommended routes shown above are given by 
+Shown above are three routes categorized using red, yellow, and green. Red indicates the least safe route, but can be more time efficient. Yellow is typically a middle ground. Green is the safest route, and will go out of its way to find blocks with the least amount of crimes. All of these routes will stay within reason so the user doesn't travel outside of boundaries.
+
