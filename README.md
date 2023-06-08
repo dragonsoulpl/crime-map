@@ -30,7 +30,8 @@ npm start
 Usage
 Once you have started the app, navigate to http://localhost:3000 in your web browser. You will be greeted with a homepage and a navbar to redirect to the directions page. On the homepage, the user will be able to see the all crimes in their area. The direction map page will allow the user to input an origin and destination to get three routes from least safe to safest.
 
-Technologies Used
+### Technologies Used
+
 React: A JavaScript library for building user interfaces
 
 Google Maps API: Used for map and route rendering
