@@ -45,3 +45,7 @@ This is the example output
 
 Shown above are three routes categorized using red, yellow, and green. Red indicates the least safe route, but can be more time efficient. Yellow is typically a middle ground. Green is the safest route, and will go out of its way to find blocks with the least amount of crimes. All of these routes will stay within reason so the user doesn't travel outside of boundaries.
 
+The app appliess Dijkstra’s algorithm using weights calculated from the tier system, to generate
+a potential route that the user could take. The tier system is shown below
+
+![image](https://github.com/dragonsoulpl/crime-map/assets/91435678/8e38f92d-6175-4977-84ba-26b871781a4e)
