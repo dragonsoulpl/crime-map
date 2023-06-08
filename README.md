@@ -1,4 +1,4 @@
-# Crime Map - A React App to find the Safest Route
+# Crime Map
 
 ## Overview
 
