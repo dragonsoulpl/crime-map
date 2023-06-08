@@ -36,7 +36,11 @@ Google Maps API: Used for map and route rendering
 Node.js: The JavaScript runtime used
 
 # Example Usage
-This is where you input the origin and destination addresses
+This is the homepage where the user can see all recent crimes in their area and can click each marker for more details.
+
+![image](https://github.com/dragonsoulpl/crime-map/assets/91435678/d39c201b-1ade-4d6f-ae7a-0282816603c9)
+
+This is the direction map page, where the user can input the origin and destination addresses
 
 ![image](https://github.com/dragonsoulpl/crime-map/assets/91435678/8c7cddb1-e9a7-4881-b71f-bd55d9bf4229)
 
@@ -45,7 +49,7 @@ This is the example output
 
 Shown above are three routes categorized using red, yellow, and green. Red indicates the least safe route, but can be more time efficient. Yellow is typically a middle ground. Green is the safest route, and will go out of its way to find blocks with the least amount of crimes. All of these routes will stay within reason so the user doesn't travel outside of boundaries.
 
-The app appliess Dijkstra’s algorithm using weights calculated from the tier system, to generate
+The app applies Dijkstra’s algorithm using weights calculated from the tier system, to generate
 a potential route that the user could take. The tier system is shown below
 
 ![image](https://github.com/dragonsoulpl/crime-map/assets/91435678/8e38f92d-6175-4977-84ba-26b871781a4e)
